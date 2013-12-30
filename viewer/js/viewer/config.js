@@ -64,31 +64,31 @@ define([
 				include: true,
 				title: "Legend",
 				open: false,
-				position: 0
+				position: 1
 			},
 			TOC: {
 				include: true,
 				title: "Layers",
 				open: false,
-				position: 1
+				position: 2
 			},
 			bookmarks: {
 				include: true,
 				title: "Bookmarks",
 				open: false,
-				position: 2
+				position: 3
 			},
 			draw: {
 				include: true,
 				title: "Draw",
 				open: false,
-				position: 3
+				position: 4
 			},
 			measure: {
 				include: true,
 				title: "Measurement",
 				open: false,
-				position: 4,
+				position: 5,
 				defaultAreaUnit: esri.Units.SQUARE_MILES,
 				defaultLengthUnit: esri.Units.MILES
 			},
@@ -96,7 +96,7 @@ define([
 				include: true,
 				title: "Print",
 				open: false,
-				position: 5,
+				position: 6,
 				serviceURL: "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
 				copyrightText: "Copyright ESRI 2013",
 				authorText: "ESRI",
@@ -108,7 +108,7 @@ define([
 				include: true,
 				title: "Directions",
 				open: false,
-				position: 6,
+				position: 7,
 				options: {
 					routeTaskUrl: "http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Network/USA/NAServer/Route",
 					routeParams: {
@@ -121,7 +121,7 @@ define([
 				include: true,
 				title: "Editor",
 				open: false,
-				position: 7,
+				position: 0,
 				settings: {
 					toolbarVisible: true,
 					showAttributesOnClick: true,
